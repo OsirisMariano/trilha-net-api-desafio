@@ -261,6 +261,15 @@ UpgradeLog*.htm
 ServiceFabricBackup/
 *.rptproj.bak
 
+# SQLite databases
+*.db
+*.db-wal
+*.db-shm
+
+# .NET folders
+bin/
+obj/
+
 # SQL Server files
 *.mdf
 *.ldf
